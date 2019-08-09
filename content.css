@@ -1,0 +1,25 @@
+.api{
+    font-weight: bold;
+}
+.nlu-process {
+    color: "red";
+    border: "2px solid red";
+}
+
+@keyframes speed {
+    0% { width: 0px; }
+    100% { width: 100%; }
+  }
+  
+  @keyframes via {
+    0% { opacity: 1; }
+    50% {opacity: 1; }
+    100% { opacity: 0; }
+  }
+  #divTDK tr {
+    animation: speed 2s cubic-bezier(1,.01,0,1) , via 2s ease-out ;
+    background: linear-gradient(to left, #fbf9fa,rgba(255,255,255,.0));
+  }
+  #ctl00_Header1_ucLogout_lblNguoiDung {
+      display: none !important; 
+  }
