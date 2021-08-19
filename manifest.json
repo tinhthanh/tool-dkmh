@@ -23,14 +23,14 @@
 
   "content_scripts":[
     {
-      "matches": ["https://dkmh.hcmuaf.edu.vn/*"],
+      "matches": ["http://thongtindaotao.sgu.edu.vn/Default.aspx?page=dkmonhoc/*"],
       "js": ["lib.js","content.js" ],
       "css": ["content.css"]
     }
   ],
 
   "permissions": [
-    "tabs",
-    "https://dkmh.hcmuaf.edu.vn/*"
+    "tab" ,
+    " http://thongtindaotao.sgu.edu.vn/Default.aspx?page=dkmonhoc/* "
         ]
 }
